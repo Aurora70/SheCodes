@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOGS!!!!</title>
+    <style>
+      :root {
+        --test-1: red;
+        --accent: #9b4621;
+        --accent-2: #d35400;
+        --gradient-start: #fdfcfb;
+        --gradient-end: #e2d1c3;
+        --page-background: #d7c592;
+      }
+      body {
+        background-color: var(--page-background);
+        background-image: url(https://giphy.com/gifs/badass-boye-kiBcwEXegBTACmVOnE);
+        background-size: 300px;
+        background-position: 97% 90%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: Helvetica, sans-serif;
+        text-align: center;
+      }
+
+      .wrapper {
+        max-width: 50%;
+        display: block;
+        margin-top: 0%;
+        margin: auto;
+      }
+
+      .flex {
+        display: flex;
+        border-radius: 20px;
+        background-color: var(--gradient-start);
+      }
+      .flex div {
+        flex-basis: 50%;
+        display: inline-block;
+      }
+
+      .spacer {
+        padding: 50px;
+      }
+
+      h1 {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 48px;
+        line-height: 0.9em;
+        color: var(--accent);
+      }
+
+      h2 {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-weight: 600;
+        color: var(--accent);
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      ul {
+        font-family: Helvetica, sans-serif;
+        line-height: 1.5em;
+        list-style-type: none;
+        padding: 30px 30px 0px 30px;
+      }
+
+      li {
+        padding-bottom: 30px;
+        text-align: left;
+      }
+
+      hr {
+        border: 0;
+        height: 1px;
+        background: var(--page-background);
+        background-image: linear-gradient(
+          to right,
+          var(--page-background),
+          var(--accent),
+          var(--page-background)
+        );
+      }
+
+      .header {
+        margin: 2em;
+      }
+
+      .subheader {
+        font-size: 20px;
+      }
+
+      .facts {
+        background-image: linear-gradient(
+          120deg,
+          var(--gradient-start) 0%,
+          var(--gradient-end) 100%
+        );
+        padding: 2em;
+        border-radius: 20px 0px 0px 20px;
+      }
+
+      #deco-image {
+        width: 300px;
+      }
+      .gallery {
+        padding: 2em;
+        display: block;
+        margin: auto;
+      }
+
+      #gallery-title {
+        color: black;
+      }
+      .gallery-item {
+        margin: 30px 0px 5px 20px;
+        width: 300px;
+        text-align: left;
+      }
+
+      .gallery-item img {
+        width: 100%;
+        height: auto;
+        margin: 0px 0px 5px 0px;
+      }
+
+      button {
+        display: block;
+        padding: 15px 20px;
+        margin: auto;
+        font-size: 16px;
+        font-family: Helvetica, sans-serif;
+        font-weight: 600;
+        color: white;
+        background-color: var(--accent);
+        border: var(--accent) solid;
+        border-radius: 40px;
+        transition: ease all 200ms;
+      }
+
+      button:hover {
+        color: var(--accent);
+        background-color: var(--page-background);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!--Header-->
+
+      <div class="header">
+        <h1 class="page-title">OH YES! I love dogs!</h1>
+        <hr />
+        <p class="subheader">
+          Dogs are amazing companions,pure at heart and loyal to anyone who takes care of them<br />
+          I love dogs,everyone should.
+        </p>
+      </div>
+      <div class="flex">
+        <div class="facts">
+          <h2>Did you know?</h2>
+          <ul>
+            <li>
+              <strong>Dogs are very social animals.</strong><br />
+              The dog is a domesticated descendant of the wolf. They're
+              <em>extremely</em> social animals and they can get depressed
+              without friends. Most dogs don't enjoy being left alone and 
+              may suffer if left without company,or nothing to do for looking periods of time. 
+            </li>
+            <li>
+              <strong>Storms can physically hurt dogs!</strong><br />
+              When the wind stats to howl and thunder starts to rumble,dogs
+              may become very anxious,looking for a place to hide.
+            </li>
+            <li>
+              <strong>Dogs sweat glands are in their paws!</strong><br />
+             One of the reasons it is so important to keep your dog cool on 
+             warm summer days is because of the way they sweat. When humans
+             internal temperature starts rising,our hypothalamus tells eccrine
+             swaet glands all over our body to cool down by producing sweat,
+             which then evaporates off our skin, reducing our temperature.
+             Dogs have fewer sweat glands than people do and they are inefficient.
+             Dogs merocrine sweat glands are located on their paw pads and produce
+             a pheromone laden oily substance. It is rare, however, that a dog
+             will sweat through its paws. Their primary form of body temperature
+             regulation is panting.
+            </li>
+
+            <li>
+              <strong>Dogs have three eyelids!</strong><br />
+              This may be news to you but your dog has three eyelids. The third
+              lid is called the 'haw' or nictating membrane and is found in birds
+              and some other mammals. You may see this eyelids when they're falling 
+              asleep or enjoying some petting,much like humans roll back their eyes 
+              when they fall asleep or from pleasure.<br />
+              <a
+                href="https://www.fourpaws.com/-/media/Project/OneWeb/FourPaws/Images/articles/family-matters/dog-playtime/dog-playtime-927x388.jpg?h=388&iar=0&w=927&hash=DC486D0863E76ECD77FCD613BCA7A537"
+                alt="Dog Playtime: Tips for safe Family Play"
+                >Read more about Dogs </a
+              >
+            </li>
+            <img
+              id="deco-image"
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6S5zzcWKI3Cpm7FkLjqxWUj1a1Fp-yTK2ukjLewMxuUe2q9Nx7QKlIcIMwnRc-9dNTOBYb2QtQ-vohuSUbFTUnlOD41jai-AJu0oltNY_KHY5PHCgWvoCbMhSn5IziR2uwu4d8MSFDfI/s1600/why-do-dogs-play.jpg"
+            />
+          </ul>
+        </div>
+
+        <!--Dogs !-->
+        <div class="gallery">
+          <h2 id="gallery-title">Just Dogs!</h2>
+          <div class="gallery-item">
+            <a
+              href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbe.chewy.com%2Fbehavior-pet-facts-why-do-dogs-get-the-zoomies%2F&psig=AOvVaw1w3iFmAqhKlP5-7jSCCxuR&ust=1727723847150000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPiJ5Ivv6IgDFQAAAAAdAAAAABA0"
+              target="_blank"
+              ><img
+                src="https://media-be.chewy.com/wp-content/uploads/2021/09/24162424/dog-zoomies-1024x615.jpg"
+                alt="Dog dog-zoomies with its toy"
+            /></a>
+            <span>Dogs R Us!</span>
+          </div>
+          <div class="gallery-item">
+            <a
+              href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.companionanimalpsychology.com%2F2017%2F11%2Fwhy-do-dogs-play.html&psig=AOvVaw2kVPeuDe9fa5sXuExx7ZUe&ust=1727724140795000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJiVmpXw6IgDFQAAAAAdAAAAABAP"
+              target="_blank"
+              ><img
+                src="https://images.prismic.io/trustedhousesitters/da129018-a094-4f5e-916e-568110c1459e_small+vs+large+dogs.png?auto=compress,format&rect=0,0,1920,800&w=480&h=200"
+                alt="Puppy playfully sitting on a bigger dog"
+            /></a>
+            <span>Its a Dog World!</span>
+          </div>
+          <div class="gallery-item">
+            <a
+              href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fvetmed.tamu.edu%2Fnews%2Fpet-talk%2Fpuppy-socialization%2F&psig=AOvVaw2kVPeuDe9fa5sXuExx7ZUe&ust=1727724140795000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJiVmpXw6IgDFQAAAAAdAAAAABAJ"
+              target="_blank"
+              ><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtgPd1Xm4LKOH0YVZatKcsH0-LCi1TYOpn-Q&s"
+                alt="Two cute puppies playing together"
+            /></a>
+            <span>Tricks and a treat!</span>
+          </div>
+          <div class="gallery-item">
+            <a
+              href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fk9basics.com%2Ftrick-training-fun-and-engaging-ways-to-teach-your-dog-new-skills%2F&psig=AOvVaw34IhvNCYC6ybafxtOIMvjx&ust=1727724251576000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJCapO7w6IgDFQAAAAAdAAAAABAE"
+              target="_blank"
+              ><img
+                src="https://www.successdogs.com/wp-content/uploads/2016/03/dog-trick-ideas.jpg"
+                alt="The ultimate trickster"
+            /></a>
+            <span>Good Boy Diaries...!</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="spacer"></div>
+        <h1 id="quiz">But what if...</h1>
+        <p class="subheader">You could test your dog knowledge?</p>
+        <button class="quiz">Do the quiz!</button>
+        <div class="spacer"></div>
+        <p>Made by Pulane cembi</p>
+      </div>
+    </div>
+    <script>
+      function quiz() {
+        let h1 = document.querySelector("h1.page-title");
+        let name = prompt("What is your name?");
+        let quizPrompt = prompt(
+          "Can dogs eat chocolate? Please answer with yes or no."
+        ).toLowerCase();
+        if (quizPrompt === "yes") {
+          alert(
+            "No! Dogs cannot eat chocolate as it is poisonous to them mostly becausse of theobromine content!"
+          );
+          h1.innerHTML = `${name} hasn't read the first fun fact.`;
+          window.scrollTo(0, 0);
+        } else if (quizPrompt === "no") {
+          alert(
+            "Very good! If your dog eats chocolate,monitor them closely and seek medical attention."
+          );
+          h1.innerHTML = `${name} has read the fun facts.`;
+          window.scrollTo(0, 0);
+        } else {
+          alert("Oops! Please try again");
+        }
+      }
+
+      let quizButton = document.querySelector("button.quiz");
+      quizButton.addEventListener("click", quiz);
+    </script>
+  </body>
+</html>
